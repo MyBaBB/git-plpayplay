@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color: var(--f6LIGHTBLUEFEATHER);
+    
+   }
+  /* *img {
+    max-width: 100%;
+    display: block;
+       } */
+  
+  :root {
+      --f1DARKDUCKHEAD:     rgba(30,59,40,1);                   
+      --f2MEDDUCKHEAD:      rgba(40,79,53,1);     
+      --f3LIGHTDUCKHEAD:    rgba(82,143,133,1);  
+      --f4DARKBLUEFEATHER:  rgba(36, 85, 141 ,1);    
+      --f5MEDBLUEFEATHER:   rgb(64, 125, 194);  
+      --f6LIGHTBLUEFEATHER: rgba(65,154,255,1); 
+      --f7DARKDUCKCHEEKS:   rgba(54,46,71,1);      
+      --f8MEDDUCKCHEEKS:    rgba(107,91,141,1);  
+      --f9LIGHTDUCKCHEEKS:  rgba(160,136,210,1);  
+      --f10DARKNECK:        rgba(65,42,50,1);   
+      --fr11MEDNECK:        rgba(122,79,94,1);  
+      --fr12LIGHTNECK:      rgba(198,129,183,1);  
+      --f13LIGHTBEAKTOP:    rgba(252,168,2,1);  
+      --f14MEDBEAKTOP:      rgba(182,121,2,1);    
+      --f15DARKBEAKTOP:     rgba(120,80,1,1);    
+      --f16DARKBEAK:        rgba(112,24,26,1);    
+      --f17MEDBEAK:         rgba(150,32,35,1);     
+      --f18LIGHTBEAK:       rgba(215,45,50,1);   
+      --f19DARKWING:        rgba(60,48,46,1);    
+      --f20MEDWING:         rgba(128,102,97,1);    
+      --f21LIGHTWING:       rgba(207,166,157,1);  
+      --f22-DARKSPACE:      rgba(8, 18, 28,1);     
+      --f23-MEDSPACE:       rgba(27,56,84,1);       
+    }
+  
+  
+  body {
+    background-color: var(--f1DARKDUCKHEAD);
+   /*  border: 2px solid var(--f3LIGHTDUCKHEAD); */
+    width: auto; height: auto;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  
+  .outerDiv {
+    display: contents;
+    justify-content: center;
+    align-items: end;
+    
+  } 
+  
+  .cherryPit{
+    position: relative;
+    top: 77vh;
+    color: var();
+    text-shadow: var();
+    max-width: fit-content; 
+    padding: 5px;
+    margin: .25rem auto .25rem;
+    text-decoration: wavy;
+   
+  }
+  
+  a:visited {
+    color:var(--f16DARKBEAK);
+  }
+   a:hover  {
+    color: var(--f17MEDBEAK);
+        
+  }
+   a:active { 
+      color: var(--f18LIGHTBEAK);
+  }
+  footer    {
+    min-width:11rem;
+    position:sticky;
+    height: auto;      
+    text-align: center;     
+    text-decoration:none; 
+    font-size:  1rem;
+    white-space: nowrap;
+     } 

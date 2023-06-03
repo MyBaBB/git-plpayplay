@@ -1,0 +1,239 @@
+*{
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  
+  
+  }
+
+  :root {
+
+    --CODEWORDS:          rgba(133, 238, 130,1);  /* #85ee82; */
+    --f13LIGHTBEAKTOP:    rgba(252,168,2,1);     /* #fca802 */  
+    --f14MEDBEAKTOP:      rgba(182,121,2,1);     /* #b67902 */
+    --f15DARKBEAKTOP:     rgba(120,80,1,1);      /* #785001  */ 
+  
+    --f1DARKDUCKHEAD:     rgba(30,59,40,1);      /* #1e3b28 */                    
+    --f2MEDDUCKHEAD:      rgba(40,79,53,1);      /* #284f35 */    
+    --f3LIGHTDUCKHEAD:    rgba(82,143,133,1);    /* #528f85 */
+    
+    --f4DARKBLUEFEATHER:  rgba(36,85,141,1);     /* #24558d  */ 
+    --f6MEDBLUEFEATHER:   rgb(42, 97, 161);      /* #419aff */ 
+    --f6LIGHTBLUEFEATHER: rgba(65,154,255,1);    /* #419aff */ 
+    
+    --f7DARKDUCKCHEEKS:   rgba(54,46,71,1);      /*  #362e47 */
+    --f8MEDDUCKCHEEKS:    rgba(107,91,141,1);    /* #6b5b8d */ 
+    --f9LIGHTDUCKCHEEKS:  rgba(160,136,210,1);   /* #362e47 */ 
+    
+    --f10DARKNECK:        rgba(65,42,50,1);      /* #412a32 */  
+    --fr11MEDNECK:        rgba(152, 100, 141,1); /* #c68199 */
+    --fr12LIGHTNECK:      rgba(198,129,183,1);   /* #c68199 */
+   
+    --f19DARKWING:        rgba(60,48,46,1);      /*  #3c302e */
+    --f20MEDWING:         rgba(128,102,97,1);    /* #806661 */
+    --f21LIGHTWING:       rgba(207,166,157,1);   /* #cfa69d */
+  
+    --f16DARKBEAK:        rgba(112,24,26,1);     /* #70181a */
+    --f17MEDBEAK:         rgba(150,32,35,1);     /* #962023 */ 
+    --f18LIGHTBEAK:       rgba(215,45,50,1);     /* #d72d32 */
+  
+    --f22-DARKSPACE:      rgba(8, 18, 28,1);     /* #08121c */
+    --f23-MEDSPACE:       rgba(27,56,84,1);      /*  #1b3854 */
+    --f24-LIGHTSPACE:     rgba(38, 77, 115,1);   /*  #264d73 */
+  }
+  .img {
+    max-width:100%;
+    display: block;
+  }
+
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  max-width: 100%;
+  background-color: rgb(5, 5, 5);
+
+ }
+.passform {
+  white-space: nowrap;
+  
+}
+     
+
+     
+.codeContainer{
+  display:flex;
+  position: sticky; 
+  align-self: flex-end;
+  padding-bottom: 3rem;
+  min-width: 300px;
+ 
+}
+    .codeWords{
+      text-align: center;
+      font-size: 1.25rem ;
+      background-color: transparent;
+      font-style: italic; 
+      color: var(--f3LIGHTDUCKHEAD)
+    }
+   
+
+
+.cube {
+  position: fixed;
+  width: 300px;
+  height: 300px;
+  transform-style: preserve-3d;
+  transform: rotateX(-30deg);
+  animation: animate 7s linear infinite;
+  z-index: -1;
+}
+  @keyframes animate
+{
+    0%
+    {
+transform:rotateX(-30deg) rotateY(360deg);
+     }
+    100%
+    {
+transform:rotateX(-30deg) rotateY(0deg);
+    }
+  } 
+    
+    
+
+
+ 
+.cube div {
+position: absolute;
+top: 0%;
+left: 0;
+min-width: 100%;min-height: 100%;
+transform-style: preserve-3d;
+
+
+}
+ .cube div span {
+ 
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  min-width: 100%;
+  min-height: 100%;
+  background: linear-gradient(#151515,#00ec00);
+  transform: rotateY(calc(90deg * var(--i))) translateZ(149px);
+ 
+ }
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background: #222;
+  transform: rotateX(90deg) translateZ(149px);
+}
+
+  .faceAndBrains   {  
+   
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%; } 
+      
+  .octopusMan    { 
+    
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%; }
+    
+  .frankenstien   {
+
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%; }
+ 
+  .dnaTestTube
+{  
+
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%; }
+
+
+
+
+
+.boxSides {
+
+  font-size: 4rem;
+  padding: 20px;
+ 
+}
+
+.top::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 300px;
+  background: #0f0;
+  transform: translateZ(-400px);
+  filter: blur(20px);
+  box-shadow: 0 0 120px rgba(0,255,0,0.2),
+  0 0 200px rgba(0,255,0,0.4), 
+  0 0 300px rgba(0,255,0,0.6), 
+  0 0 400px rgba(0,255,0,0.8),
+  0 0 500px rgba(0,255,0,1);
+}
+
+
+.cherryPit{
+  position: relative;
+  top: 77vh;
+  color: var();
+  text-shadow: var();
+  max-width: fit-content; 
+  padding: 5px;
+  margin: .25rem auto .25rem;
+  white-space: nowrap;
+ 
+}
+
+a:visited {
+  color:var(--f16DARKBEAK);
+}
+ a:hover  {
+  color: var(--f17MEDBEAK)
+      
+}
+ a:active { 
+    color: var(--f18LIGHTBEAK);
+}
+footer    {
+  min-width:11rem;
+  position:sticky;
+  height: auto;      
+  text-align: center;     
+  text-decoration:none; 
+  font-size:  1rem;
+   } 
+
+
+
+
+
+
+
+
