@@ -1,3 +1,5 @@
- Introduction project , I am a newbie to GitHub.  THis is a sign in page that I created with a Password Page that has a rotating glowing cube with OctopusMan.  password = password 
- The second page is an  SVG embeded code as an image with a custom footer 'Cherrypit' that's it. It can be made into something cool.
+ Introduction project , I am a newbie to GitHub.  THis is a sign in page that I created with a 
+ Password Page that has a rotating glowing cube with OctopusMan.  password = password 
+ The second page is an  SVG embeded code as an image with a 
+ custom footer 'Cherrypit' that's it. It can be made into something cool.
 👽.
