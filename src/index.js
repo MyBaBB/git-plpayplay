@@ -3,7 +3,7 @@
 
 
 
-const password = '258258';
+const password = 'password';
 function passcheck() {
  if (document.getElementById('pass1').value != password) {
 alert('Wrong Password, Try Again.')
