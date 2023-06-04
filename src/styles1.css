@@ -47,8 +47,6 @@
     display: block;
   }
 
-
-
 body {
   display: flex;
   justify-content: center;
@@ -62,9 +60,7 @@ body {
   white-space: nowrap;
   
 }
-     
-
-     
+      
 .codeContainer{
   display:flex;
   position: sticky; 
@@ -80,9 +76,7 @@ body {
       font-style: italic; 
       color: var(--f3LIGHTDUCKHEAD)
     }
-   
-
-
+  
 .cube {
   position: fixed;
   width: 300px;
@@ -101,20 +95,15 @@ transform:rotateX(-30deg) rotateY(360deg);
     100%
     {
 transform:rotateX(-30deg) rotateY(0deg);
-    }
-  } 
-    
-    
-
-
- 
+  }
+  }    
+   
 .cube div {
 position: absolute;
 top: 0%;
 left: 0;
 min-width: 100%;min-height: 100%;
 transform-style: preserve-3d;
-
 
 }
  .cube div span {
@@ -141,34 +130,37 @@ transform-style: preserve-3d;
   transform: rotateX(90deg) translateZ(149px);
 }
 
-  .faceAndBrains   {  
+  .faceAndBrains {  
    
     top: 0;
     left: 0;
     min-width: 100%;
-    min-height: 100%; } 
+    min-height: 100%;
+} 
       
-  .octopusMan    { 
+  .octopusMan { 
     
     top: 0;
     left: 0;
     min-width: 100%;
-    min-height: 100%; }
+    min-height: 100%; 
+}
     
-  .frankenstien   {
+  .frankenstien {
 
     top: 0;
     left: 0;
     min-width: 100%;
-    min-height: 100%; }
+    min-height: 100%; 
+}
  
-  .dnaTestTube
-{  
+  .dnaTestTube {  
 
     top: 0;
     left: 0;
     min-width: 100%;
-    min-height: 100%; }
+    min-height: 100%;
+}
 
 
 
@@ -198,17 +190,13 @@ transform-style: preserve-3d;
   0 0 500px rgba(0,255,0,1);
 }
 
-
-.cherryPit{
+.cherryPit {
   position: relative;
   top: 77vh;
-  color: var();
-  text-shadow: var();
   max-width: fit-content; 
   padding: 5px;
   margin: .25rem auto .25rem;
   white-space: nowrap;
- 
 }
 
 a:visited {
@@ -228,7 +216,7 @@ footer    {
   text-align: center;     
   text-decoration:none; 
   font-size:  1rem;
-   } 
+} 
 
 
 
